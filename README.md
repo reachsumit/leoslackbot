@@ -12,5 +12,5 @@ Leo is a Slack bot that utilizes Google's URL shortening and AWS's SNS services.
 ### private chat
 ![Imgur](https://i.imgur.com/mSjxE4e.png "Screenshot 1")
 ### group chat
-![Imgur](https://i.imgur.com/eOXyCgJ.png "Screenshot 2")
+![Imgur](https://i.imgur.com/dg776pZ.png "Screenshot 2")
 
