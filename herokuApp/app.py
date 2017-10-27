@@ -88,11 +88,17 @@ def say_bye(user):
 
 def has_add(text):
     match = ['add me','add my','subscribe me','subscribe my']
-    return any(item in text.lower() for item in match)
+    for item in match:
+        if re.search('(^|\s)'+item+'($|\s)',text.lower()) is not None:
+            return True
+    return False
 
 def has_remove(text):
     match = ['remove me','remove my','delete me','delete my','unsubscribe me','unsubscribe my']
-    return any(item in text.lower() for item in match)
+    for item in match:
+        if re.search('(^|\s)'+item+'($|\s)',text.lower()) is not None:
+            return True
+    return False
 
 def find_number(text):
     if not text:
